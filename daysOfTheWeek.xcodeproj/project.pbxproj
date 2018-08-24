@@ -12,6 +12,8 @@
 		C324D663212C751C001C25DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C324D661212C751C001C25DF /* Main.storyboard */; };
 		C324D665212C7520001C25DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C324D664212C7520001C25DF /* Assets.xcassets */; };
 		C324D668212C7520001C25DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C324D666212C7520001C25DF /* LaunchScreen.storyboard */; };
+		C324D672212C767B001C25DF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C324D671212C767B001C25DF /* TableViewController.swift */; };
+		C324D674212C7C17001C25DF /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C324D673212C7C17001C25DF /* DayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C324D664212C7520001C25DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C324D667212C7520001C25DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C324D669212C7520001C25DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C324D671212C767B001C25DF /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C324D673212C7C17001C25DF /* DayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		C324D65C212C751C001C25DF /* daysOfTheWeek */ = {
 			isa = PBXGroup;
 			children = (
+				C324D671212C767B001C25DF /* TableViewController.swift */,
 				C324D65D212C751C001C25DF /* AppDelegate.swift */,
 				C324D65F212C751C001C25DF /* ViewController.swift */,
 				C324D661212C751C001C25DF /* Main.storyboard */,
+				C324D673212C7C17001C25DF /* DayViewController.swift */,
 				C324D664212C7520001C25DF /* Assets.xcassets */,
 				C324D666212C7520001C25DF /* LaunchScreen.storyboard */,
 				C324D669212C7520001C25DF /* Info.plist */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C324D660212C751C001C25DF /* ViewController.swift in Sources */,
+				C324D672212C767B001C25DF /* TableViewController.swift in Sources */,
 				C324D65E212C751C001C25DF /* AppDelegate.swift in Sources */,
+				C324D674212C7C17001C25DF /* DayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
